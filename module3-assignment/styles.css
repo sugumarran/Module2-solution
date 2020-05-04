@@ -4,7 +4,7 @@
 
 body {
 	font-size: 16px;
-	color: black;
+	color: red;
 	font-family: sans-serif;
 }
  h2{
@@ -12,7 +12,7 @@ body {
 }
 
 #header-nav {
-	background-color: gray;
+	background-color: red;
 	border-radius: 0;
 	border-style: bold;
 	border-width: 2px;
@@ -37,7 +37,7 @@ body {
 	 border: transparent;
 	 margin: 20px;
 	 padding: 0 10px 10px 15px;
-	 background-color: gray;
+	 background-color: black;
 }
 
 .title {
