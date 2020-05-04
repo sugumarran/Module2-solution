@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	color: black;
+	font-family: sans-serif;
+}
+ h2{
+	font-weight: bold;
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border-style: bold;
+	border-width: 2px;
+	border-color: black;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px ;
+	margin-top: 0;
+	line-height: .65;
+	
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.section {
+	 border: transparent;
+	 margin: 20px;
+	 padding: 0 10px 10px 15px;
+	 background-color: gray;
+}
+
+.title {
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 2px solid black;
+} 
+
+#collapsable-nav li:nth-child(2) {
+	border: 1.5px solid black;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+
+#nav-list li a {
+	color: black;
+	font-weight: bold;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: white;
+	}
+	#header-nav {
+		border-color: black;
+		border-style: bold;
+	}
+}
+
